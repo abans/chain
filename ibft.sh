@@ -24,10 +24,10 @@ function createGenesis() {
     --premine 0x0000000000000000000000000000000000000000 \
     --epoch-size 10 \
     --reward-wallet 0xDEADBEEF:1000000000000000000 \
-    --native-token-config "Acans:ACAN:18:true:$address1" \
+    --native-token-config "BNC:BNC:18:true:$address1" \
     --burn-contract 0:0x0000000000000000000000000000000000000000 \
     --epoch-reward 100000000000000000 \
-    --chain-id 20555 \
+    --chain-id 4444 \
     --name polygon-acans \
     --proxy-contracts-admin $admin
 }
