@@ -1,0 +1,2 @@
+#/bin/sh
+docker exec -it polygon-edge-validator-1 /bin/sh

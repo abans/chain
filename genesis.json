@@ -1,0 +1,84 @@
+{
+  "name": "polygon-acans",
+  "genesis": {
+    "nonce": "0x0000000000000000",
+    "timestamp": "0x0",
+    "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90129f90120f846949fb25fae39214c3fb60d822e7b78a2cb5d91dd0bb0b74b2850de54923a8a5ab40afc9f868e5c30da9e7d89b4c97f8f32610db9e5fb6ccf13679f5c4741ca2c5cbedad1b4c1f84694298b89840b61a180fb49906aef2e40c44c82cf20b097c017bf74f55e773176ddd791699803ff152ff648b99d4f0368b4ac5fb540790c1c9231565d3de52823e7baf61dff28f84694b8818256265f8cb0c67c0433c76422b26f56ab53b0b26f14bf6f3f1a15385857d849e4eed14faa1910f509b1b3b98b6fadf0c708e94f92fdfb78c750c0ad1e3696f1445692f846946233ff4a2b4525088544d12cd254ea4f644dc26db0a0eb92efd8b52f5be15452b310d83fceb7504bb000ddd77c7bb0b3efadc484d65d736f00494deaeda09df33fc07ce74b80c28080c080",
+    "gasLimit": "0x989680",
+    "difficulty": "0x1",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "alloc": {
+      "0x0000000000000000000000000000000000000000": {
+        "balance": "0xd3c21bcecceda1000000"
+      },
+      "0x3B418f58C48A0dbc32EeA19Bf6baB799040a7182": {
+        "balance": "0x3635c9adc5dea00000"
+      }
+    },
+    "number": "0x0",
+    "gasUsed": "0x70000",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "baseFee": "0x3b9aca00",
+    "baseFeeEM": "0x2",
+    "baseFeeChangeDenom": "0x8"
+  },
+  "params": {
+    "forks": {
+      "EIP150": {
+        "block": 0
+      },
+      "EIP155": {
+        "block": 0
+      },
+      "EIP158": {
+        "block": 0
+      },
+      "byzantium": {
+        "block": 0
+      },
+      "constantinople": {
+        "block": 0
+      },
+      "homestead": {
+        "block": 0
+      },
+      "istanbul": {
+        "block": 0
+      },
+      "london": {
+        "block": 0
+      },
+      "londonfix": {
+        "block": 0
+      },
+      "petersburg": {
+        "block": 0
+      },
+      "quorumcalcalignment": {
+        "block": 0
+      },
+      "txHashWithType": {
+        "block": 0
+      }
+    },
+    "chainID": 20555,
+    "engine": {
+      "ibft": {
+        "blockTime": 2000000000,
+        "epochSize": 10,
+        "type": "PoA",
+        "validator_type": "bls"
+      }
+    },
+    "blockGasTarget": 0,
+    "burnContract": {
+      "0": "0x0000000000000000000000000000000000000000"
+    },
+    "burnContractDestinationAddress": "0x0000000000000000000000000000000000000000"
+  },
+  "bootnodes": [
+    "/dns4/node1/tcp/1478/p2p/16Uiu2HAkzh3abZ18ogGWXCxqnurpSgiwEdquHbjRe5mCVhCGywPG",
+    "/dns4/node2/tcp/1478/p2p/16Uiu2HAmKGLAhH7DhrQZ9uDo7gtwv7mbQogqt4Kce9PRJL9ABFEU"
+  ]
+}
